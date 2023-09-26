@@ -115,5 +115,3 @@ multi-line
 string.
 '''
 ```
-
-That's a basic tutorial covering some fundamental aspects of Python. You can experiment with these concepts by writing your own code and running it to see the results. Python's simplicity and readability make it an excellent choice for both beginners and experienced programmers.

@@ -260,4 +260,12 @@ my_string = "    "
 result = my_string.isspace()  # True
 ```
 
+#### `isupper()` and `islower()`
 
+These methods check if all characters in the string are uppercase or lowercase, respectively.
+
+```python
+my_string = "HELLO"
+result_upper = my_string.isupper()  # True
+result_lower = my_string.islower()  # False
+```

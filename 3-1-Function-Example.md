@@ -52,6 +52,44 @@ else:
     print(f"'{word}' is not a palindrome.")
 ```
 
+A palindrome is a word, phrase, or sequence of characters that reads the same forwards and backward (ignoring spaces, punctuation, and capitalization). 
+
+1. **Function Definition:**
+   ```python
+   def is_palindrome(s):
+   ```
+   This line defines a function named `is_palindrome` that takes one argument `s`, which is the string to be checked for palindrome status.
+
+2. **Data Preprocessing:**
+   ```python
+   s = s.lower().replace(" ", "").replace(",", "").replace(".", "")
+   ```
+   This line performs several operations on the input string `s`:
+   - `s.lower()`: Converts the string to lowercase. This is done to make the comparison case-insensitive, so that words like "Racecar" and "racecar" are considered palindromes.
+   - `.replace(" ", "")`: Removes all spaces from the string. Spaces are ignored when checking for palindromes.
+   - `.replace(",", "")` and `.replace(".", "")`: Removes commas and periods from the string. Punctuation marks are also ignored when checking for palindromes.
+
+3. **Palindrome Check:**
+   ```python
+   return s == s[::-1]
+   ```
+   This line compares the modified string `s` to its reverse (`s[::-1]`). If they are the same, it means the input string is a palindrome, and the function returns `True`. Otherwise, it returns `False`.
+
+4. **Main Program:**
+   ```python
+   word = "Racecar"  # Replace with the word or phrase you want to check
+   ```
+   In this line, a variable `word` is assigned the value "Racecar." You can replace this with any word or phrase you want to check for palindromes.
+
+5. **Palindrome Check and Output:**
+   ```python
+   if is_palindrome(word):
+       print(f"'{word}' is a palindrome.")
+   else:
+       print(f"'{word}' is not a palindrome.")
+   ```
+   Here, the `is_palindrome` function is called with the `word` variable as its argument. If the function returns `True`, it prints a message indicating that the word is a palindrome. If it returns `False`, it prints a message indicating that the word is not a palindrome.
+
 Exercise 4: Factorial Calculator
 
 Write a Python function that calculates the factorial of a given non-negative integer 'n' using a loop. The factorial of a number is the product of all positive integers from 1 to 'n'.

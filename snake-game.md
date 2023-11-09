@@ -12,32 +12,40 @@ Below is a basic example of creating a simple Snake game using Pygame.
 
 Step 1: Import Libraries
 
-Import the necessary libraries, including pygame for creating the game.
+Import the necessary libraries, including pygame for creating the game.<br>
+
 Step 2: Initialize Pygame
 
-Initialize Pygame to set up the game environment.
+Initialize Pygame to set up the game environment.<br>
+
 Step 3: Define Constants
 
-Set constants for the game, including screen width and height, grid size, colors, and directions.
+Set constants for the game, including screen width and height, grid size, colors, and directions.<br>
+
 Step 4: Initialize the Screen
 
 Create the game screen with a specified width and height.
-Set the window caption.
+Set the window caption.<br>
+
 Step 5: Set Up Initial Game State
 
 Initialize the snake's initial position and direction.
 Initialize the food's initial position.
 Set the initial score to 0.
-Initialize the game over flag to False.
+Initialize the game over flag to False.<br>
+
 Step 6: Main Game Loop
 
-Start the main game loop, which runs until the game over flag becomes True.
+Start the main game loop, which runs until the game over flag becomes True.<br>
+
 Step 7: Event Handling
 
-Handle events such as quitting the game or changing the snake's direction based on user input.
+Handle events such as quitting the game or changing the snake's direction based on user input.<br>
+
 Step 8: Move the Snake
 
-Calculate the new head position for the snake based on its current position and direction.
+Calculate the new head position for the snake based on its current position and direction.<br>
+
 Step 9: Collision Detection
 
 Check for collisions:
@@ -45,20 +53,24 @@ If the snake collides with the food:
 Increase the score.
 Generate new food at a random position.
 If the snake collides with itself or goes out of bounds:
-Set the game over flag to True.
+Set the game over flag to True.<br>
+
 Step 10: Update the Display
 
 Clear the screen.
 Draw the food.
 Draw the snake segments.
-Update the display to show the current game state.
+Update the display to show the current game state.<br>
+
 Step 11: Frame Rate Control
 
-Cap the frame rate to control the speed of the game.
+Cap the frame rate to control the speed of the game.<br>
+
 Step 12: Game Over
 
-When the game is over, display a "Game Over" message along with the player's score.
-Wait for a key press to exit the game.
+When the game ends, display a "Game Over" message along with the player's score.
+Wait for a key press to exit the game.<br>
+
 Step 13: Quit Pygame
 
 Quit Pygame when the game is done.

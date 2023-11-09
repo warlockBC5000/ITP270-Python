@@ -1,6 +1,6 @@
 # Snake Game
 
-In this tutorial, you will create a Snake Game using graphical library.
+In this tutorial, you will create a Snake Game using a graphical library.
 
 Below is a basic example of creating a simple Snake game using Pygame. 
 
@@ -78,7 +78,7 @@ Quit Pygame when the game is done.
 
 ## Snake Game Code
 
-```
+```python
 import pygame
 import random
 
